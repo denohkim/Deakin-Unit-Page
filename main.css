@@ -1,19 +1,30 @@
-
-
+/* Styles for headings and paragraphs */
 h1 {
   font-size: 40px;
-  font-family: Arial
+  font-family: Arial;
 }
+
 h2 {
   font-size: 25px;
-  font-family: Arial
+  font-family: Arial;
 }
+
 h3 {
-  font-family: Arial
+  font-family: Arial;
 }
+
 p {
   font-size: 14px;
-  font-family: Arial
+  font-family: Arial;
 }
 
+/* Add header styles */
+.header {
+  background-color: darkcyan; /* Change this to the green color specified if needed */
+  text-align: center; /* Centers the logo horizontally */
+  padding: 10px; /* Optional: Adjust padding as needed */
+}
 
+.header img {
+  display: inline; /* Ensures the logo is displayed correctly */
+}
